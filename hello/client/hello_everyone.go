@@ -6,7 +6,7 @@ import (
 	"log"
 	"time"
 
-	pb "grpc-unary/hello/proto"
+	pb "grpc-bi-directional-streaming/hello/proto"
 )
 
 func doHelloEveryone(c pb.HelloServiceClient) {

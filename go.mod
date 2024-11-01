@@ -1,4 +1,4 @@
-module grpc-unary
+module grpc-bi-directional-streaming
 
 go 1.23
 

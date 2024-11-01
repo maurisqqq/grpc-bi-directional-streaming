@@ -4,7 +4,7 @@ import (
 	"io"
 	"log"
 
-	pb "grpc-unary/hello/proto"
+	pb "grpc-bi-directional-streaming/hello/proto"
 )
 
 func (*Server) HelloEveryone(stream pb.HelloService_HelloEveryoneServer) error {
